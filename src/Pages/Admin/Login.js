@@ -10,8 +10,8 @@ export function Login ({navigation}) {
     
     const [user, setUser] = useState(null);
     const [password, setPassword] = useState(null);
-
-    const logando = () => {
+//login para adm
+    const logando = () => {       
         if(user == 12345 && password == 12345){
             navigation.navigate('Entrar')
 
